@@ -5,8 +5,8 @@
 
 # Site
 title: 祁灵
-subtitle:
-description: 祁灵
+subtitle: 站在巨人的肩膀上，你怎么还那么矮！！！
+description: 站在巨人的肩膀上，你怎么还那么矮！！！
 author: Zhu Tao
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
@@ -83,7 +83,7 @@ keywords: "Jekyll, NexT"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: false
 
 # Specify the date when the site was setup
 #since: 2015
@@ -117,12 +117,12 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
-  #about: /about/
-  archives: /archives/
+  categories: /categories/
   tags: /tags/
-  #sitemap: /sitemap.xml
-  #commonweal: /404.html
+  archives: /archives/
+  about: /about/
+  # sitemap: /sitemap.xml
+  # commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -232,7 +232,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /assets/images/avatar.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -264,7 +264,7 @@ sidebar:
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
   display: post
-  #display: always
+  # display: always
   #display: hide
   #display: remove
 
@@ -379,7 +379,7 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
+  enable: true
   shortname:
   count: true
   # hide comments (visitors need to click to load the comments)
@@ -550,7 +550,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
