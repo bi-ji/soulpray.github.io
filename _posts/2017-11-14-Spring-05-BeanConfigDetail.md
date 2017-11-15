@@ -1,5 +1,5 @@
 ---
-title: Spring系列_04_bean的配置细节
+title: Spring系列_05_bean的配置细节
 tags:
 - Spring
 - List
