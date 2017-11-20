@@ -82,5 +82,7 @@ public void testXmlConfigGetBeanByType() {
 
 ## 方式二：基于注解的形式 ##
 
+见Spring系列_12_基于注解的bean配置
+
 ## 总结 ##
 >Spring中Bean的配置就成功结束了。本教程基于Spring4.3.0,代码地址：[https://github.com/soulpray/SpringFamily.git](https://github.com/soulpray/SpringFamily.git)，目录中的Spring4.X。
